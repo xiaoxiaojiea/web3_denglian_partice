@@ -57,6 +57,25 @@
     - **payable 使用、及从合约里面转出 ETH**
     - **映射和数组的使用**
 
+##### 实战 2：编写BigBank， 理解并使用合约件的继承、修改器、权限控制以及通过接口作为类型调用其他合约方法。
+
+- 挑战链接: https://decert.me/quests/063c14be-d3e6-41e0-a243-54e35b1dde58
+
+- [解题内容](./module-02/d02/)
+
+- ***知识点:***
+    - **接口合约、合约继承、合约重写、合约调用**
+    - **函数修饰符public、external、internal、private的作用**
+    - **状态可视性修饰符view、pure、payable的作用**
+    - **数据位置修饰符memory、storage、calldata的作用**
+
+
+
+
+
+
+
+
 
 
 
