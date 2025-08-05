@@ -69,9 +69,14 @@
     - **状态可视性修饰符view、pure、payable的作用**
     - **数据位置修饰符memory、storage、calldata的作用**
 
+##### 练习 3： 理解 ABI 编解码规则
 
+- 挑战链接: https://decert.me/quests/10c11aa7-2ccd-4bcc-8ccd-56b51f0c12b8
 
+- [解题内容](./module-02/d03/)
 
+- ***知识点:***
+    - **函数选择器、函数签名的ABI编码、solidity中的ABI 编码和解码、call底层调用的payload构建方法**
 
 
 
