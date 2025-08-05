@@ -4,7 +4,7 @@
 [项目参考代码](https://github.com/lbc-team/Web3-BootCamp-Practice)
 [项目挑战-官网](https://decert.me/)
 
-### 模块一： 区块链基础
+## 模块一： 区块链基础
 
 ##### 实战 1：编码模拟工作量证明（ POW ）过程 与非对称加密应用
 - 挑战链接: https://decert.me/quests/45779e03-7905-469e-822e-3ec3746d9ece
@@ -41,6 +41,22 @@
 
 - ***知识点:***
     - **remix部署一个sepolia测试网智能合约**：`s01.sol`
+
+
+## 模块二： Solidity语言特性
+
+##### 实战 1：编写Bank，通过实战理解合约账号、并能运用合约接收 ETH，掌握 receive/fallfack函数的使用， payable 使用、及从合约里面转出 ETH，以及映射和数组的使用。
+
+- 挑战链接: https://decert.me/quests/c43324bc-0220-4e81-b533-668fa644c1c3
+
+- [解题内容](./module-02/d01/)
+
+- ***知识点:***
+    - **Bank合约编写**
+    - **receive/fallfack函数**
+    - **payable 使用、及从合约里面转出 ETH**
+    - **映射和数组的使用**
+
 
 
 
