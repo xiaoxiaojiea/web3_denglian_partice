@@ -102,7 +102,15 @@
     - **授权余额的mapping组织形式是这样的：代币所有人 => 被批准使用人 => 使用代币数量**
 
 
+#### 实战 2：实现一个代币银行 TokenBank ，理解合约与合约的交互，理解ERC20 的使用，尤其是 Token 的 transfer， 以及 approve 与 tansferFrom 的组合使用。
 
+- 挑战链接: https://decert.me/quests/eeb9f7d8-6fd0-4c38-b09c-75a29bd53af3
+
+- [解题内容](./module-03/d02/)
+
+- ***知识点:***
+    - **官方ERC20的使用**
+    - **approve、transferFrom、transfer的含义**
 
 
 
