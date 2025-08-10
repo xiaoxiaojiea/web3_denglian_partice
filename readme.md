@@ -112,6 +112,19 @@
     - **官方ERC20的使用**
     - **approve、transferFrom、transfer的含义**
 
+#### 实战 3：编写直接 ERC721 NFT 合约 ，通过实战进一步熟悉 Solidity 编程，而且可以熟悉 ER721 Token 合约标准及实现，以及掌握去中心化存储（如 IPFS）的使用。
+
+- 挑战链接: https://decert.me/quests/852f5836-a03d-4483-a7e0-b0f6f8bda01c
+
+- [解题内容](./module-03/d03/)
+
+- ***知识点:***
+    - **NFT基础知识**
+    - **NFT与普通coin的不同点**
+    - **NFT合约实现的大致模板与注意事项**
+
+
+
 
 
 
