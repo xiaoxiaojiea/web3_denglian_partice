@@ -1,0 +1,17 @@
+{
+    "name": "DengLian NFT Demo",
+    "description": "This is a description of DengLian NFT Demo.",
+    "image": "https://ipfs.filebase.io/ipfs/QmThCbYsvx2ezj939YjUmcERwxo2wSo8yio7dhFj4xvQ1H",
+    "external_url": "",
+    "attributes": 
+        [
+            {
+                "trait_type": "Rarity",
+                "value": "Legendary"
+            },
+            {
+                "trait_type": "Background",
+                "value": "Blue"
+            }
+        ]
+}
