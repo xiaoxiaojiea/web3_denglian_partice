@@ -14,7 +14,7 @@ transfer 和 transferFrom 是 ERC20 代币转账的两种核心方式，关键�
     - 代币从哪扣: 被授权人的账户
     - 是否需要提前 approve: 需要先 approve
     - 常见用途: 代付、代扣、交易市场付款
-- **在使用到transferFrom的时候，一定要注意是否经过了授权**
+- **在使用transferFrom(from, to, amount)的时候，一定要注意from是否对sender授权了操作他代币的权限**
 
 **重点注意事项**
 - 见例子：s01.sol，s02.sol，s03.sol 组合中的（该例子来自于 [原始题目](../../module-03/d04/) ）
