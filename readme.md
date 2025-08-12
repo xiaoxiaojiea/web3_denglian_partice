@@ -4,6 +4,9 @@
 [项目参考代码](https://github.com/lbc-team/Web3-BootCamp-Practice)
 [项目挑战-官网](https://decert.me/)
 
+## 重要案例
+- [解题内容](./module-important/)
+
 ## 模块一： 区块链基础
 
 #### 实战 1：编码模拟工作量证明（ POW ）过程 与非对称加密应用

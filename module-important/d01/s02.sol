@@ -6,8 +6,8 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 // 对应NFT market支持的回调购买接口
 interface IERC20Receiver {
-    // 回调购买方法
-    function tokensReceived(address from, uint256 amount, bytes calldata data) external;
+    function tokensReceivedError(address from, uint256 amount, bytes calldata data) external;
+    function tokensReceivedSuccess(address from, uint256 amount, bytes calldata data) external;
 }
 
 contract MyToken is ERC20, Ownable {
@@ -20,15 +20,29 @@ contract MyToken is ERC20, Ownable {
         _mint(msg.sender, _initialSupply);
     }
 
-    // token的回调购买nft方法
-    function transferAndCall(address nftMarketAddress, uint256 amount, bytes calldata data) external returns (bool) {
+    // token的回调购买nft方法 - Success
+    function transferAndCallSuccess(address nftMarketAddress, uint256 amount, bytes calldata data) external returns (bool) {
         // 调用者将自己的token转移到地址to（该地址应该是nft market合约地址，因为token到了合约地址之后合约会分发给nft卖家的）
         _transfer(msg.sender, nftMarketAddress, amount);
 
         // 确保to地址是nft market合约地址
         if (nftMarketAddress.code.length > 0) {  // 大于 0，说明 nftMarketAddress 是合约地址
             // 调用nft market的回调购买方法
-            IERC20Receiver(nftMarketAddress).tokensReceived(msg.sender, amount, data);
+            IERC20Receiver(nftMarketAddress).tokensReceivedSuccess(msg.sender, amount, data);
+        }
+
+        return true;
+    }
+
+    // token的回调购买nft方法 - Error
+    function transferAndCallError(address nftMarketAddress, uint256 amount, bytes calldata data) external returns (bool) {
+        // 调用者将自己的token转移到地址to（该地址应该是nft market合约地址，因为token到了合约地址之后合约会分发给nft卖家的）
+        _transfer(msg.sender, nftMarketAddress, amount);
+
+        // 确保to地址是nft market合约地址
+        if (nftMarketAddress.code.length > 0) {  // 大于 0，说明 nftMarketAddress 是合约地址
+            // 调用nft market的回调购买方法
+            IERC20Receiver(nftMarketAddress).tokensReceivedError(msg.sender, amount, data);
         }
 
         return true;
