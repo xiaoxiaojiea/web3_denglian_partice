@@ -37,13 +37,6 @@
     openzeppelin = "lib/openzeppelin-contracts"
     ```
     - 生成 Remappings: forge remappings > remappings.txt
-- 写代码：
-    - 合约代码：src/token.sol 写入上述代码（代码有一点修改）
-        - 需要先删除 test、script下的sol文件
-        - forge build
-    - 部署代码：script/token.s.sol
-        - 在.env中设置自己的参数
-        - source .env
 - 部署：
 ```bash
 forge script script/token.s.sol:MyTokenScript \

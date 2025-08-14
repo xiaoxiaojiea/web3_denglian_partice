@@ -157,7 +157,14 @@
 - ***知识点:***
     - **foundry编译，部署，开源功能**
 
+#### 实战 3：使用 Foundry 进行测试。 测试 Bank 合约来熟悉 Foundry 各种作弊码的使用
 
+- 挑战链接: https://decert.me/quests/b8cde6b2-bad4-4629-b73a-2d0dede4f347
+
+- [解题内容](./module-04/d03/)
+
+- ***知识点:***
+    - **着重合约测试**
 
 
 
