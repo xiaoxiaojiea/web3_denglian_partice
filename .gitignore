@@ -1,0 +1,22 @@
+# 忽略所有层级的 .env 文件
+**/.env
+
+# 忽略所有层级的 broadcast 目录
+**/broadcast/
+
+# 忽略所有层级的 cache 目录
+**/cache/
+
+# 忽略所有层级的 lib 目录
+**/lib/
+
+# 忽略所有层级的 out 目录
+**/out/
+
+# 忽略 IDE 配置文件
+.vscode/
+.idea/
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
