@@ -137,6 +137,26 @@
     - **NFT与Token之间的购买与兑换**
 
 
+## 模块四：Foundry 开发工具
+
+#### 练习 1： 完成 Foundry 基础知识挑战，用来测试对 Foundry 开发框架了解
+
+- 挑战链接: https://decert.me/quests/3bca8f1f-df6b-469b-941e-79388ee280c6
+
+- [解题内容](./module-04/d01/)
+
+- ***知识点:***
+    - **基础概念，没什么好说的**
+
+#### 实战 2：使用 Foundry 部署和开源合约， 掌握使用 Foundry 进行合约开发、编译部署、开源验证全流程
+
+- 挑战链接: https://decert.me/quests/7bd246d8-f0c3-45c0-a335-766505afdba9
+
+- [解题内容](./module-04/d02/)
+
+- ***知识点:***
+    - **foundry编译，部署，开源功能**
+
 
 
 
