@@ -1,6 +1,9 @@
 # 忽略所有层级的 .env 文件
 **/.env
 
+# 忽略所有层级的 node_modules 文件
+**/node_modules
+
 # 忽略所有层级的 broadcast 目录
 **/broadcast/
 
