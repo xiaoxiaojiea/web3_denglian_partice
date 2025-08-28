@@ -1,0 +1,58 @@
+.app {
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #4caf50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .disconnect {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #f44336;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+    background: #fafafa;
+  }
+  
+  .actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .nft-container {
+    margin-top: 1rem;
+  }
+  
+  .nft-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+  }
+  
+  .nft-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background: white;
+  }
+  
