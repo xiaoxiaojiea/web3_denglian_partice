@@ -222,6 +222,19 @@
 - ***知识点:***
     - **自己实现多签合约**
 
+#### 实战 6. 为 NFT 市场 NFTMarket 项目添加前端，接入 AppKit 进行多钱包（尤其是 WalletConnect）前端登录
+
+- 挑战链接: https://decert.me/quests/a1a9aff6-1788-4254-bc47-405cc529bbd1
+
+- [解题内容](./module-05/d06/)
+
+- ***知识点:***
+    - **react+view+WCT使用**
+
+
+
+
+
 
 
 
