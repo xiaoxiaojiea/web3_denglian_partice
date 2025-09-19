@@ -306,6 +306,15 @@
     - **Merkel 树构建与验证，multicall的使用**
 
 
+#### 实战 6：理解账户抽象 AA ( ERC4337 与 EIP7702 )，利用最新的上线的 EIP 7702 发起打包交易
+
+- 挑战链接: https://decert.me/quests/2c550f3e-0c29-46f8-a9ea-6258bb01b3ff
+
+- [解题内容](./module-06/d06/)
+
+- ***知识点:***
+    - **MultiCall的使用**
+
 
 
 
