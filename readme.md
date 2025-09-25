@@ -343,7 +343,14 @@
 - ***知识点:***
     - **delegatecall，solt，重入攻击等漏洞**
 
+#### 实战 10：利用第三方服务（如 ChainLink Automation 等）实现对合约关键状态监控与自动化调用，
 
+- 挑战链接: https://decert.me/quests/072fccb4-a976-4cf9-933c-c4ef14e0f6eb
+
+- [解题内容](./module-06/d10/)
+
+- ***知识点:***
+    - **ChainLink Automation使用原理**
 
 
 
