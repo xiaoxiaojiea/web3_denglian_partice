@@ -352,7 +352,16 @@
 - ***知识点:***
     - **ChainLink Automation使用原理**
 
+## 模块七：DEFI - 去中心化金融
 
+#### 实战 1: 编写一个线性解锁 Vesting 合约， 在实践中理解行业中锁仓、 Cliff（悬崖期 ）及解锁（ Vesting） 概念
+
+- 挑战链接: https://decert.me/quests/58aec80f-8980-434a-b549-566003367694
+
+- [解题内容](./module-07/d01/)
+
+- ***知识点:***
+    - **线性解锁 Vesting 合约**
 
 
 
