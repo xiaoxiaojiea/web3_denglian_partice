@@ -363,6 +363,15 @@
 - ***知识点:***
     - **线性解锁 Vesting 合约**
 
+#### 实战 2: 本地部署 Uniswap V2 ， 熟悉 Uniswap V2 代码，有余力同学可以继续尝试本地部署 Uniswap V3
+
+- 挑战链接: https://decert.me/quests/fa82f574-7f3e-4566-8916-dd7aff17cb01
+
+- [解题内容](./module-07/d02/)
+
+- ***知识点:***
+    - **Uniswap V2**
+
 
 
 
